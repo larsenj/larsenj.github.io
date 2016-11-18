@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    padding: 0px;
+    color: red;
+    font-family: arial, non-serif;    
+}
+
+.BigBox {
+    width: 50%;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color: red;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
+
+a:link {
+    color: #00BFFF;
+}
+
+a:visited {
+    color: #D4A017;
+}
+
+    

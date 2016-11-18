@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Adapt Intent Parser Tutorial</title>
+        <link type="text/css" rel="stylesheet" href="index.css">
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        <link rel="stylesheet" href="agate.css">
+        <script src="highlight.pack.js"></script>
+         
+        <script src="script.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>    
+        </head>
+
+<body onload="tutorial()">
+    <h1>Mycroft Adapt Intent Parser Tutorial</h1>
+    <br>
+    <h2>Introduction</h2>
+    <div class="BigBox" id="intro"></div><br>
+    <h2>Installation</h2>
+    <div class="BigBox" id="install"></div><br>
+    <h2>Python Tutorial</h2>
+    <div class="BigBox" id="python"></div><br>
+    <h2>Node Tutorial</h2>
+    <div class="BigBox" id="node"></div><br>
+    <h2>Next Steps</h2>
+    <div class="BigBox" id="next"></div><br>
+
+<footer>
+<p>
+<script>
+    var dateModified = document.lastModified;
+    docDate = dateModified.slice(0,10);
+    document.write("<b>Last updated: " + docDate + "</b>");
+    hljs.initHighlighting.called = false;
+    hljs.initHighlighting();
+</script>
+</p>
+</footer>
+</body>
+</html>
