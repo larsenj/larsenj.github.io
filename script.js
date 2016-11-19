@@ -67,7 +67,7 @@ var node = "Now that we have the JSON object with all sorts of categories "
     + "The child_process module allows Node to run another program. Additionally "
     + "it allows you to send the outputs from the child program directly back "
     + "to your javascript program.<br><br>"
-    + "The first step, other than installing Node if you don't already have it, 
+    + "The first step, other than installing Node if you don't already have it, "
     + "is to go back to your python script and make sure you have the line "
     + "<pre><code class='hljs py'>import sys</code></pre>"
     + "which you should have anyways from the Adapt tutorial. Next, although I "
